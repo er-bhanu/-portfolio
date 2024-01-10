@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/91357e329d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo3.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fas fa-times"onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software engineer</p>
+            <h1> Hi, I'm<span>Bhanu</span> <br>  frome greater noida</h1>
+        </div>
+    </div>
+</div>
+<!--------------about---------------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am a Undergrad and currently pursuing B.Tech in Computer Science & Engineering (CSE).
+                     I have a passion for computer programming and information technology.
+                      I have used computer programming since I was in high school. This passion has given me the ability to develop programs for a multitude of things, including softwares, websites, games and databases. 
+                      My other love is information technology. I have many plans to implement newer technologies in my life such as cloud computing and managed IT services. 
+                      I am open to learning new things and getting involved with new projects that can help me learn or apply all that I have learned throughout my college career.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>web development</span><br>I am a full-stack developer</li>
+                        <li><span>PYTHON</span><br>I can work with python</li>
+                        <li><span>JAVA</span><br>i have a good knowledge of JAVA programming language</li>
+                        <li><span>DSA</span><br> currently i am workning on DSA ,and i can work on it .</li>
+                        <li><span>AI/ML</span><br>I have basic knowledge of AI/ML.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>PROJECT 1</span><br> my project was "contact management system " using PYTHON and i used MySQL to store data.</li>
+                        <li><span>2020</span><br>Designing web/app inter</li>
+                        <li><span>2024</span><br>xyz</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>10th with 78%</li>
+                        <li><span>2018</span><br>12th with 61%</li>
+                        <li><span>2021</span><br>B.Sc with 75%</li>
+                        <li><span>2021-2025</span><br>Software Engineering (B.Tech)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--------------------------------services----------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web Designe</h2>
+                <p>my name is bhanu thakur I have used computer programming since I was in high school. This passion has given me the ability to develop programs for a multitude of things, including softwares, websites, games and databases. 
+                    My other love is information technology. I have many plans to implement newer technologies in my life such as cloud computing and managed IT services. 
+                    I am open to learning new things and ge </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>ui/ux web Designe</h2>
+                <p>my name is bhanu thakur I have used computer programming since I was in high school. This passion has given me the ability to develop programs for a multitude of things, including softwares, websites, games and databases. 
+                    My other love is information technology. I have many plans to implement newer technologies in my life such as cloud computing and managed IT services. 
+                    I am open to learning new things and ge </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> App web Designe</h2>
+                <p>my name is bhanu thakur I have used computer programming since I was in high school. This passion has given me the ability to develop programs for a multitude of things, including softwares, websites, games and databases. 
+                    My other love is information technology. I have many plans to implement newer technologies in my life such as cloud computing and managed IT services. 
+                    I am open to learning new things and ge </p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------Projects--------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">my Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>social media app</h3>
+                    <p>the ###### app connect you the talent people</p>
+                    <a href="##"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>project</h3>
+                        <p>the ###### app connect you the talent people</p>
+                        <a href="##"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>anything</h3>
+                        <p>the ###### app connect you the talent people</p>
+                        <a href="##"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!------------------------------contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bhanupratapsingh30112001@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>7310519406</p>
+                <div class="social-icons">
+                     <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/bhanu_thakur124/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bhanu-pratap-singh-bbb789257/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/BHANUPRATA44252"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Downlode Resume</a>
+            </div>
+            <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                     <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="Email" placeholder="your Email" required>
+                     <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+                 <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Bhanu Pratap Singh . made by<i class="fa-solid fa-heart"></i> self </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyYfA2oPUrUzemwosyRQ_1qc_ccq8ZkZnXeXibNkGM_wlCokffrhDoNDwlGpeCypZnCsg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
